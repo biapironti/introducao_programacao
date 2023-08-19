@@ -2,7 +2,7 @@
 function mensagemNota() {
 	var nota = document.getElementById("notaAluno1").value
 
-	if(nota>=90){
+	if(nota>=90) {
 		alert("Nota A")
 	} else {
 		if(nota>=80 && nota<=89) {
